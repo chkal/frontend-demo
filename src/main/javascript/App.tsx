@@ -29,7 +29,7 @@ const App: React.FunctionComponent = () => {
 
       {/* Time */}
       <div className={"time-wrapper"}>
-        {systemInfo ? new Date(systemInfo.time).toLocaleString() : "..."}
+        {systemInfo ? new Date( systemInfo.time ).toLocaleString() : "..."}
       </div>
 
       {/* Tables */}
