@@ -21,6 +21,7 @@
 }
 
 .table tbody tr td.label {
+    vertical-align: top;
     font-weight: bold;
     width: 35%;
 }
