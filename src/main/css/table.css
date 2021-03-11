@@ -1,0 +1,22 @@
+.table {
+    width: 100%;
+    max-width: 30rem;
+}
+
+.table thead {
+    background-color: lightblue;
+}
+
+.table tbody {
+    background-color: lightgray;
+}
+
+.table tbody tr td,
+.table thead tr th {
+    padding: 0.2rem 0.5rem;
+}
+
+.table tbody tr td.label {
+    font-weight: bold;
+    width: 35%;
+}

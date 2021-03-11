@@ -1,0 +1,25 @@
+{
+  "name": "frontend-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --progress --color --mode development --port 9999 --host 0.0.0.0",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/react-dom": "^17.0.2",
+    "css-loader": "^5.1.2",
+    "file-loader": "^6.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-use": "^17.2.1",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.0.18",
+    "typescript": "^4.2.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
