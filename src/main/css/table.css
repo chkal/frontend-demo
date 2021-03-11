@@ -11,9 +11,13 @@
     background-color: lightgray;
 }
 
-.table tbody tr td,
 .table thead tr th {
-    padding: 0.2rem 0.5rem;
+    font-size: 110%;
+    padding: 0.5rem 0;
+}
+
+.table tbody tr td {
+    padding: 0.4rem 0.7rem;
 }
 
 .table tbody tr td.label {
