@@ -1,6 +1,6 @@
 # Frontend Tooling Demo
 
-Demo project showing how to integrate modern frontend tooling into a Maven-based webapplication.
+Demo project showing how to integrate modern frontend tooling into a Maven-based web application.
 
 Technologies used:
 
