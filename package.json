@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "webpack --mode production",
-    "start": "webpack serve --progress --color --mode development --port 9999 --host 0.0.0.0",
+    "build": "webpack --mode=production",
+    "start": "webpack serve --mode=development --devtool=source-map --port 9999",
     "test": "jest"
   },
   "dependencies": {
