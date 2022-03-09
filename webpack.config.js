@@ -10,6 +10,7 @@ module.exports = {
   output: {
     filename: "app.js",
     path: path.resolve( __dirname, "target/generated-web-resources/assets/" ),
+    publicPath: "/assets"
   },
 
   // How to handle imports
@@ -65,11 +66,12 @@ module.exports = {
 
   // Development
   devServer: {
-    publicPath: "/assets/",
+    devMiddleware: {
+      index: false, // specify to enable root proxying
+    },
     proxy: {
-      "*": {
-        target: "http://localhost:8080"
-      }
+      context: () => true,
+      target: "http://localhost:8080"
     }
   }
 
